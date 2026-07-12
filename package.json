@@ -1,0 +1,42 @@
+{
+  "name": "ebs-community",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "gate": "npm run build && tsc --noEmit && vitest run"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "4.0.7",
+    "@ai-sdk/google": "4.0.8",
+    "@ai-sdk/openai": "4.0.7",
+    "@ai-sdk/openai-compatible": "3.0.5",
+    "@ai-sdk/react": "4.0.15",
+    "ai": "7.0.14",
+    "next": "16.2.10",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "sharp": "0.34.2",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.2",
+    "@types/node": "22.20.0",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "tailwindcss": "4.3.2",
+    "tsx": "4.22.5",
+    "typescript": "5.9.3",
+    "vitest": "4.1.9"
+  }
+}

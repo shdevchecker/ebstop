@@ -1,0 +1,20 @@
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+.next/
+out/
+*.log
+footage/
+.DS_Store
+
+# Local-disk media storage (see lib/storage.ts).
+.storage/
+
+# TypeScript / Next build artifacts
+*.tsbuildinfo
+next-env.d.ts
+
+# Release archives produced by scripts/release.ts
+ebs-web-v*.zip.cursorrules
