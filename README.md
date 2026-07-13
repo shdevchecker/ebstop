@@ -89,7 +89,7 @@ npm run dev
 
 ## 许可证
 
-Apache 2.0 —— 见 [LICENSE](LICENSE)。可自由使用、修改和二次开发。
+Apache 2.0 — 见 [LICENSE](LICENSE)。
 
 依据许可证第 4(d) 条，任何派生作品在分发时须保留 [NOTICE](NOTICE) 文件中的署名信息。
 
